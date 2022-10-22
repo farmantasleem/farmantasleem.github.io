@@ -96,15 +96,17 @@ section:nth-child(even) {
 /* NAVIGATION BAR */
 
 nav {
-  height: 70px;
+  height: 55px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4px;
-  background-color: white;
+  padding: 0 6px;
+  background-color:rgb(216, 216, 216);
+  margin-top: 8px;
+  border-radius: 8px;
 
   z-index: 5;
 
@@ -138,6 +140,7 @@ nav {
   font-size: 24px;
   color: rgb(8, 5, 37);
   margin: 0 12px;
+ letter-spacing: 1px;
   font-weight: bold
 }
 
@@ -202,7 +205,14 @@ nav {
 .about-me__info--title {
   margin-bottom: 16px;
   animation: fade-up 650ms 400ms backwards;
+
+
 }
+.about-me__info--title span{
+  letter-spacing: 0.51px;
+  
+}
+
 .about-me__info--para {
   font-size: 20px;
   margin-bottom: 28px;
@@ -416,7 +426,8 @@ nav {
 /* FOOTER */
 
 footer {
-  background-color: #242424;
+  background-color: rgb(8,5,37);
+ 
 }
 
 .footer__social--list {
@@ -430,13 +441,15 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   justify-content: center;
-  padding: 8% 0;
+ padding-bottom: 20px;
 }
 
 .footer__logo--img {
   width: 70px;
   height: 70px;
+  border-radius: 20px;
 }
 
 .footer__social--link,
@@ -561,4 +574,21 @@ footer {
   font-size: 15px;
 }.flex2 li{
   margin-bottom: 3px;
+}
+.name::first-letter{
+  color: greenyellow;
+}
+.name{
+ 
+  font-variant: small-caps;
+
+}
+.about-me__info--title::first-letter{
+  color: rgb(104, 104, 104);
+}
+.little{
+  background-color:silver;
+  padding: 8px 21px;
+  color: rgb(8, 5, 37);
+  border-radius: 12px;
 }
