@@ -63,6 +63,7 @@ li {
 
 .flex {
   display: flex;
+  
 }
 
 .flex-1 {
@@ -72,6 +73,7 @@ li {
 .container {
   padding: 50px 0;
 }
+
 .row {
   width: 100%;
   max-width: 800px;
@@ -80,7 +82,7 @@ li {
 }
 
 .text--purple {
-  color: #6030b1;
+  color: rgb(8, 5, 37);
 }
 
 section:nth-child(even) {
@@ -94,14 +96,20 @@ section:nth-child(even) {
 /* NAVIGATION BAR */
 
 nav {
-  height: 100px;
+  height: 70px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 4px;
+  background-color: white;
+
+  z-index: 5;
+
+
+  margin-bottom: 20px;
 }
 
 .nav__link--list {
@@ -115,7 +123,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: rgb(8, 5, 37);
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -123,12 +131,12 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-  background-color: #5d3eff;
+  background-color: rgb(32,14,50);
 }
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
+  color: rgb(8, 5, 37);
   margin: 0 12px;
   font-weight: bold
 }
@@ -139,11 +147,17 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .about-me__info {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+}
+#languages{
+  z-index: -1;
+  
 }
 
 .about-me__info--container {
@@ -220,10 +234,23 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
+  text-align: center;
+  margin-top: 10px;
+
+
 }
 .about-me__img {
-  width: 100%;
+  margin: auto;
+  margin-top:10px ;
+  margin-bottom: opx;
+  width:30%;
+  border-radius: 50%;
+  border: 2px solid white;
   animation: fade-in 1200ms 800ms backwards;
+  -webkit-box-shadow: 0 0 3px 1px #242424;
+  -moz-box-shadow: 0 0 3px 1px #242424;
+  box-shadow: 0 0 3px 1px#242424;
+
 }
 
 @keyframes fade-in {
@@ -234,7 +261,9 @@ nav {
     opacity: 1;
   }
 }
-
+.flex2{
+  display: flex;
+}
 .wave {
   display: inline-block;
   animation: animate-wave 500ms infinite ease-in-out;
@@ -270,6 +299,7 @@ nav {
   display: flex;
   justify-content: center;
   position: relative;
+  z-index: 1;
 }
 .language__img--wrapper {
   display: flex;
@@ -467,7 +497,9 @@ footer {
   .nav__link:not(:last-child) {
     display: none;
   }
-
+  .flex2{
+    flex-direction: column;
+  }
   .project__wrapper {
     border-radius: 0;
   }
@@ -497,4 +529,36 @@ footer {
     text-align: center;
     margin: 12px 0;
   }
+}
+.flex2{
+  width: 100%;
+  text-align: left;
+  color: white;
+  background-color: rgb(8, 5, 37);
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  border: 2px solid silver;
+
+}
+
+.flex2 img{
+  height: 150px;
+  margin-right: 20px;
+  border-radius:50%;
+  border: 2px solid white;
+}
+
+.flex2 h3,.flex2 h2{
+  text-align: left;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.flex2 p{
+  font-size: 15px;
+}.flex2 li{
+  margin-bottom: 3px;
 }
