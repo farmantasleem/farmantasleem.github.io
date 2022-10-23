@@ -497,7 +497,7 @@ footer {
 /* Small phones, tablets, large smartphones */
 @media (max-width: 768px) {
   nav {
-    height: 55px;
+    height: 45px;
   }
 
   h1 {
