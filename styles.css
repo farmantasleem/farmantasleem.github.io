@@ -354,7 +354,7 @@ nav {
 
 .project {
  
-  margin-bottom: 135px;
+  margin-bottom: 35px;
 }
 
 .project:last-child {
@@ -363,7 +363,7 @@ nav {
 
 .project__img {
   width: 100%;
-
+  border-radius: 8px;
   transition: all 500ms ease;
 
 }
@@ -499,6 +499,9 @@ footer {
   nav {
     height: 45px;
   }
+  .days img{
+    width: 100%;
+  }
 
   h1 {
     font-size: 28px;
@@ -526,6 +529,10 @@ footer {
 @media (max-width: 480px) {
   .nav__link:not(:last-child) {
     display: none;
+  }
+  .days img{
+    width: 100%;
+    height:100px;
   }
   .flex2{
     flex-direction: column;
@@ -609,3 +616,18 @@ footer {
   color: rgb(8, 5, 37);
   border-radius: 12px;
 }
+.days img{
+
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid rgb(8,5,37);
+}
+.days{
+  padding: 20px;
+  text-align: center;
+  background-color:whitesmoke;
+}
+.days h1::first-letter{
+  color: rgb(8, 5, 37);
+}
+
