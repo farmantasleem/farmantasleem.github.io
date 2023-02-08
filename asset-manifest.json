@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.58f6ed1b.css",
-    "main.js": "/static/js/main.64e93e4b.js",
+    "main.js": "/static/js/main.9940dbf0.js",
     "static/js/787.35fe7324.chunk.js": "/static/js/787.35fe7324.chunk.js",
+    "static/media/finestshave.gif": "/static/media/finestshave.3a5b240024892263aac2.gif",
     "static/media/indiegogo.png": "/static/media/indiegogo.9bc8958308ccee6c488f.png",
     "static/media/farman1.jpg": "/static/media/farman1.91dbbc1ae3dff82c9bbc.jpg",
     "static/media/myfitensspal.png": "/static/media/myfitensspal.3976a712c7e0896e58e1.png",
     "static/media/Farman_Malik_Resume.pdf": "/static/media/Farman_Malik_Resume.fae0dbeb29067e77d7e8.pdf",
+    "static/media/shareherestory.png": "/static/media/shareherestory.41520470e389d423aedf.png",
+    "static/media/finestshave.png": "/static/media/finestshave.64433c3242f896d8eb30.png",
     "static/media/insight.png": "/static/media/insight.40863459117d6c956e8f.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.58f6ed1b.css.map": "/static/css/main.58f6ed1b.css.map",
-    "main.64e93e4b.js.map": "/static/js/main.64e93e4b.js.map",
+    "main.9940dbf0.js.map": "/static/js/main.9940dbf0.js.map",
     "787.35fe7324.chunk.js.map": "/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58f6ed1b.css",
-    "static/js/main.64e93e4b.js"
+    "static/js/main.9940dbf0.js"
   ]
 }
